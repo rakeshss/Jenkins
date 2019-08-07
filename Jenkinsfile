@@ -13,7 +13,7 @@ pipeline {
             }   
         }
         
-        stage('Automation') {
+        stage('Automation1') {
             steps {
                 sh 'echo "running automation test cases"'
             }   
